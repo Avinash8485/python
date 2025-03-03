@@ -11,3 +11,19 @@ while True :
         case 'exit':
             break
 print("byeee")
+
+members = ["john", "sarah", "dora"]
+
+for item in members:
+    print(item.capitalize())
+
+country = "USA"
+
+match country:
+    case 'USA'| 'United States':
+        print("Hello")
+    case 'Italy':
+        print("Ciao")
+    case 'Germany':
+        print("Hallo")
+
